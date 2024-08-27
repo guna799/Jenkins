@@ -9,6 +9,7 @@ pipeline {
                 echo ' adding triggers in Git  adfe'
                 echo ' adding one more lineer to check commits'
                 echo 'testing'
+                echo ' able to send webhook request'
             }
         }
     }
