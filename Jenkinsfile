@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 echo ' Testing webhook triggers'
+                echo ' adding triggers in Git'
             }
         }
     }
