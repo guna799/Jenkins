@@ -7,7 +7,6 @@ pipeline {
                 echo 'Hello World'
                 echo ' Testing webhook triggers'
                 echo ' adding triggers in Git  adfe'
-                echo ' changed context type'
             }
         }
     }
