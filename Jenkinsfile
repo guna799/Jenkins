@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script
                 {
-                    sh ' echo "This is git check out stage" '
+                    echo "This is git check out stage"
                 }
             }
         }
@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script
                 {
-                    sh ' echo "This is Build stage" '
+                    echo "This is Build stage"
                 }
             }
         }
@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script
                 {
-                    sh ' echo "This is Test stage" '
+                    echo "This is Test stage"
                 }
             }
         }  
@@ -39,7 +39,7 @@ pipeline {
             steps {
                 script
                 {
-                    sh ' echo "This is Deploy stage" '
+                    echo "This is Deploy stage"
                 }
             }
         }                      
